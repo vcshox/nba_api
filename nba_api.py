@@ -31,6 +31,58 @@ def update_roster(link, file_path):
 
 	return roster_json
 
+def update_player_stats(link, file_path, start_date, end_date):
+	response = requests.get(link).json()
+	game_list = response['league']['standard']
+	
+	player_stats_file = open(file_path, 'r')
+	player_stats_json = json.load(player_stats_file)
+	player_stats_file.close()
+	
+	backup_file(file_path)
+	
+	for game in game_list:
+		if 'tags' in game and 'PRESEASON' in game['tags']:
+			continue
+	
+		game_date = game['startDateEastern']
+		if int(game_date) < start_date:
+			print 'skip ' + game_date
+			continue
+		if int(game_date) > end_date:
+			print 'break ' + game_date
+			break
+	
+		game_id = game['gameId']
+		print 'processing game:%s ...' % game['gameId']
+
+		box_score_url = '%s/prod/v1/%s/%s_boxscore.json' % (api_base, game_date, game_id)
+	
+		box_score = requests.get(box_score_url).json()
+		active_players = box_score['stats']['activePlayers']
+		for player in active_players:
+			person_id = player['personId']
+			
+			if person_id not in player_stats_json:
+				player_stats_json[person_id] = {
+					'perGame': []
+				}
+
+			game_stats = {
+				'gameId': game_id
+			}
+			for key in player:
+				if key == 'personId' or key == 'isOnCourt' or key == 'sortKey':
+					continue
+				game_stats[key] = player[key]
+			
+			player_stats_json[person_id]['perGame'].append(game_stats)
+	
+		with open(file_path, 'w') as player_stats_file:
+			player_stats_file.write(json.dumps(player_stats_json, indent=2))
+			player_stats_file.close()
+	
+	
 api_base = 'http://data.nba.net/10s/'
 link_reference_link = api_base + 'prod/v1/today.json'
 response = requests.get(link_reference_link).json()
@@ -42,50 +94,8 @@ file_path = {
 
 latest_roster = update_roster(api_base + response['links']['leagueRosterPlayers'], file_path['roster'])
 
-response = requests.get(api_base + response['links']['leagueSchedule']).json()
-game_list = response['league']['standard']
+update_player_stats(api_base + response['links']['leagueSchedule'], file_path['player_stats'], 20181111, 20181113)
 
-player_stats_file = open(file_path['player_stats'], 'r')
-player_stats_json = json.load(player_stats_file)
-player_stats_file.close()
-
-
-for game in game_list:
-	if 'tags' in game and 'PRESEASON' in game['tags']:
-		continue
-	
-	game_date = game['startDateEastern']
-	if int(game_date) > 20181111:
-		break
-	
-	game_id = game['gameId']
-	print 'processing game:%s ...' % game['gameId']
-
-	box_score_url = '%s/prod/v1/%s/%s_boxscore.json' % (api_base, game_date, game_id)
-	
-	box_score = requests.get(box_score_url).json()
-	active_players = box_score['stats']['activePlayers']
-	for player in active_players:
-		person_id = player['personId']
-		
-		if person_id not in player_stats_json:
-			player_stats_json[person_id] = {
-				'perGame': []
-			}
-
-		game_stats = {
-			'gameId': game_id
-		}
-		for key in player:
-			if key == 'personId' or key == 'isOnCourt' or key == 'sortKey':
-				continue
-			game_stats[key] = player[key]
-		
-		player_stats_json[person_id]['perGame'].append(game_stats)
-	
-with open(file_path['player_stats'], 'w') as player_stats_file:
-	player_stats_file.write(json.dumps(player_stats_json, indent=2))
-	player_stats_file.close()
 	
 	
 	
