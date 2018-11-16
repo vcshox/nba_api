@@ -94,7 +94,7 @@ file_path = {
 
 latest_roster = update_roster(api_base + response['links']['leagueRosterPlayers'], file_path['roster'])
 
-update_player_stats(api_base + response['links']['leagueSchedule'], file_path['player_stats'], 20181111, 20181113)
+update_player_stats(api_base + response['links']['leagueSchedule'], file_path['player_stats'], 20181114, 20181115)
 
 	
 	
