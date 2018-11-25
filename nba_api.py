@@ -1,5 +1,6 @@
 import requests
 import json
+import decimal
 import datetime
 import sys
 import os
@@ -117,35 +118,36 @@ def get_game_in_range(end_date, from_date=20181016, team_id=None):
 
  return query_games			
 
+def gen_game_data(team_key, game_detail):
+	team_stats = game_detail['stats'][team_key]['totals']
+	for data_key in team_stats:
+		if data_key != 'min':
+			team_stats[data_key] = float(decimal.Decimal(team_stats[data_key]))
+			# print team_stats[data_key]
+	
+	return {
+		'basicInfo': {
+			'homeTeam': team_key == 'hTeam'
+		},
+		'stats': team_stats
+	}
+
 def update_db(game_list):
 	for game in game_list:
+		game_id = game['gameId']
+		print 'processing game:%s ...' % game_id
 		# ex: http://data.nba.net/10s/prod/v1/20181016/0021800001_boxscore.json
 		box_score_url = 'http://data.nba.net/10s/prod/v1/%s/%s_boxscore.json' % (
-		game['startDateEastern'], game['gameId'])
+		game['startDateEastern'], game_id)
 		game_detail = requests.get(box_score_url).json()
-		print 'processing game id:%s' % game['gameId']
-		
+
 		# Visit Team
 		team_id = game_detail['basicGameData']['vTeam']['teamId']
-		team_stats = game_detail['stats']['vTeam']['totals']
-		game_data = {
-			'basicInfo': {
-				'homeTeam': False
-			},
-			'stats': team_stats
-		}
-		update_team_log(team_id, game_data)
-		
+		update_team_log(team_id, gen_game_data('vTeam', game_detail))
 		# Home Team
 		team_id = game_detail['basicGameData']['hTeam']['teamId']
-		team_stats = game_detail['stats']['hTeam']['totals']
-		game_data = {
-			'basicInfo': {
-				'homeTeam': True
-			},
-			'stats': team_stats
-		}
-		update_team_log(team_id, game_data)
+		update_team_log(team_id, gen_game_data('hTeam', game_detail))
+
 
 def update_team_log(team_id, game_data):
 	team_info = get_team_info(team_id)
