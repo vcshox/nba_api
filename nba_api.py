@@ -119,15 +119,29 @@ def get_game_in_range(end_date, from_date=20181016, team_id=None):
  return query_games			
 
 def gen_game_data(team_key, game_detail):
+	op_team_key = 'vTeam' if team_key == 'hTeam' else 'hTeam'
 	team_stats = game_detail['stats'][team_key]['totals']
+	game_min = team_stats.pop('min', None)
+	team_stats.pop('min', None)
+	team_stats.pop('points', None)
+
 	for data_key in team_stats:
-		if data_key != 'min':
-			team_stats[data_key] = float(decimal.Decimal(team_stats[data_key]))
-			# print team_stats[data_key]
+		team_stats[data_key] = float(decimal.Decimal(team_stats[data_key]))
+		# print team_stats[data_key]
+
+	op_team_id = game_detail['basicGameData'][op_team_key]['teamId']
+	team_score = float(decimal.Decimal(game_detail['basicGameData'][team_key]['score']))
+	op_team_score = float(decimal.Decimal(game_detail['basicGameData'][op_team_key]['score']))
+
 	
 	return {
-		'basicInfo': {
-			'homeTeam': team_key == 'hTeam'
+		'basicGameData': {
+			'gameId': game_detail['basicGameData']['gameId'],
+			'startDateEastern': game_detail['basicGameData']['startDateEastern'],
+			'homeTeam': team_key == 'hTeam',
+			'opTeamId': op_team_id,
+			'min': game_min,
+			'win': team_score > op_team_score
 		},
 		'stats': team_stats
 	}

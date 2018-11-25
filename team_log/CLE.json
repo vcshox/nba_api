@@ -1,7 +1,12 @@
 [
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612761", 
+      "gameId": "0021800008", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": false, 
+      "startDateEastern": "20181017"
     }, 
     "stats": {
       "ftp": 74.4, 
@@ -9,14 +14,12 @@
       "tpa": 19.0, 
       "plusMinus": -12.0, 
       "totReb": 49.0, 
-      "min": "240:00", 
       "fgp": 40.0, 
       "fga": 85.0, 
       "fta": 39.0, 
       "fgm": 34.0, 
-      "points": 104.0, 
-      "offReb": 14.0, 
       "assists": 17.0, 
+      "offReb": 14.0, 
       "tpp": 36.8, 
       "defReb": 35.0, 
       "pFouls": 25.0, 
@@ -27,23 +30,26 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612750", 
+      "gameId": "0021800021", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": false, 
+      "startDateEastern": "20181019"
     }, 
     "stats": {
       "ftp": 86.2, 
       "blocks": 2.0, 
       "tpa": 23.0, 
-      "min": "240:00", 
-      "totReb": 43.0, 
       "plusMinus": -8.0, 
+      "totReb": 43.0, 
       "fgp": 48.4, 
       "fta": 29.0, 
       "fgm": 45.0, 
       "tpm": 8.0, 
-      "points": 123.0, 
-      "offReb": 13.0, 
       "assists": 26.0, 
+      "offReb": 13.0, 
       "tpp": 34.8, 
       "defReb": 30.0, 
       "pFouls": 24.0, 
@@ -54,23 +60,26 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612737", 
+      "gameId": "0021800036", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": true, 
+      "startDateEastern": "20181021"
     }, 
     "stats": {
       "ftp": 64.3, 
       "blocks": 2.0, 
-      "points": 111.0, 
       "tpa": 27.0, 
-      "min": "240:00", 
+      "plusMinus": -22.0, 
       "totReb": 49.0, 
       "fgp": 46.5, 
       "fga": 99.0, 
       "fta": 14.0, 
       "fgm": 46.0, 
-      "plusMinus": -22.0, 
-      "offReb": 15.0, 
       "assists": 23.0, 
+      "offReb": 15.0, 
       "tpp": 37.0, 
       "defReb": 34.0, 
       "pFouls": 25.0, 
@@ -81,35 +90,43 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612751", 
+      "gameId": "0021800053", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": true, 
+      "startDateEastern": "20181024"
     }, 
     "stats": {
       "ftp": 93.8, 
       "blocks": 2.0, 
       "tpa": 18.0, 
-      "min": "240:00", 
+      "plusMinus": -16.0, 
       "totReb": 53.0, 
       "fgp": 38.2, 
-      "turnovers": 15.0, 
       "fta": 16.0, 
       "fgm": 34.0, 
       "tpm": 3.0, 
-      "plusMinus": -16.0, 
-      "offReb": 16.0, 
       "assists": 18.0, 
+      "offReb": 16.0, 
       "tpp": 16.7, 
       "defReb": 37.0, 
       "pFouls": 19.0, 
       "ftm": 15.0, 
       "fga": 89.0, 
       "steals": 5.0, 
-      "points": 86.0
+      "turnovers": 15.0
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612765", 
+      "gameId": "0021800063", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": false, 
+      "startDateEastern": "20181025"
     }, 
     "stats": {
       "ftp": 86.7, 
@@ -117,14 +134,12 @@
       "tpa": 24.0, 
       "plusMinus": -7.0, 
       "totReb": 30.0, 
-      "min": "240:00", 
       "fgp": 46.1, 
       "fga": 89.0, 
       "fta": 15.0, 
       "fgm": 41.0, 
-      "points": 103.0, 
-      "offReb": 7.0, 
       "assists": 18.0, 
+      "offReb": 7.0, 
       "tpp": 33.3, 
       "defReb": 23.0, 
       "pFouls": 25.0, 
@@ -135,23 +150,26 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612754", 
+      "gameId": "0021800077", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": true, 
+      "startDateEastern": "20181027"
     }, 
     "stats": {
       "ftp": 90.9, 
       "blocks": 2.0, 
       "tpa": 25.0, 
-      "min": "240:00", 
-      "totReb": 39.0, 
       "plusMinus": -12.0, 
+      "totReb": 39.0, 
       "fgp": 46.5, 
       "fta": 22.0, 
       "fgm": 40.0, 
       "tpm": 7.0, 
-      "points": 107.0, 
-      "offReb": 16.0, 
       "assists": 21.0, 
+      "offReb": 16.0, 
       "tpp": 28.0, 
       "defReb": 23.0, 
       "pFouls": 20.0, 
@@ -162,23 +180,26 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612737", 
+      "gameId": "0021800097", 
+      "min": "240:00", 
+      "win": true, 
+      "homeTeam": true, 
+      "startDateEastern": "20181030"
     }, 
     "stats": {
       "ftp": 76.7, 
       "blocks": 1.0, 
-      "points": 136.0, 
       "tpa": 25.0, 
-      "min": "240:00", 
+      "plusMinus": 22.0, 
       "totReb": 48.0, 
       "fgp": 50.0, 
       "fga": 90.0, 
       "fta": 43.0, 
       "fgm": 45.0, 
-      "plusMinus": 22.0, 
-      "offReb": 13.0, 
       "assists": 23.0, 
+      "offReb": 13.0, 
       "tpp": 52.0, 
       "defReb": 35.0, 
       "pFouls": 20.0, 
@@ -189,35 +210,43 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612743", 
+      "gameId": "0021800112", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": true, 
+      "startDateEastern": "20181101"
     }, 
     "stats": {
       "ftp": 94.7, 
       "blocks": 4.0, 
       "tpa": 18.0, 
-      "min": "240:00", 
+      "plusMinus": -19.0, 
       "totReb": 35.0, 
       "fgp": 41.0, 
-      "turnovers": 13.0, 
       "fta": 19.0, 
       "fgm": 34.0, 
       "tpm": 5.0, 
-      "plusMinus": -19.0, 
-      "offReb": 13.0, 
       "assists": 18.0, 
+      "offReb": 13.0, 
       "tpp": 27.8, 
       "defReb": 22.0, 
       "pFouls": 22.0, 
       "ftm": 18.0, 
       "fga": 83.0, 
       "steals": 11.0, 
-      "points": 91.0
+      "turnovers": 13.0
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612766", 
+      "gameId": "0021800126", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": false, 
+      "startDateEastern": "20181103"
     }, 
     "stats": {
       "ftp": 93.3, 
@@ -225,14 +254,12 @@
       "tpa": 26.0, 
       "plusMinus": -32.0, 
       "totReb": 26.0, 
-      "min": "240:00", 
       "fgp": 43.2, 
       "fga": 81.0, 
       "fta": 15.0, 
       "fgm": 35.0, 
-      "points": 94.0, 
-      "offReb": 3.0, 
       "assists": 22.0, 
+      "offReb": 3.0, 
       "tpp": 38.5, 
       "defReb": 23.0, 
       "pFouls": 20.0, 
@@ -243,23 +270,26 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612753", 
+      "gameId": "0021800142", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": false, 
+      "startDateEastern": "20181105"
     }, 
     "stats": {
       "ftp": 66.7, 
       "blocks": 2.0, 
       "tpa": 23.0, 
-      "min": "240:00", 
-      "totReb": 42.0, 
       "plusMinus": -2.0, 
+      "totReb": 42.0, 
       "fgp": 51.2, 
       "fta": 12.0, 
       "fgm": 41.0, 
       "tpm": 10.0, 
-      "points": 100.0, 
-      "offReb": 8.0, 
       "assists": 20.0, 
+      "offReb": 8.0, 
       "tpp": 43.5, 
       "defReb": 34.0, 
       "pFouls": 17.0, 
@@ -270,23 +300,26 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612760", 
+      "gameId": "0021800153", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": true, 
+      "startDateEastern": "20181107"
     }, 
     "stats": {
       "ftp": 84.6, 
       "blocks": 4.0, 
-      "points": 86.0, 
       "tpa": 31.0, 
-      "min": "240:00", 
+      "plusMinus": -9.0, 
       "totReb": 51.0, 
       "fgp": 37.1, 
       "fga": 89.0, 
       "fta": 13.0, 
       "fgm": 33.0, 
-      "plusMinus": -9.0, 
-      "offReb": 12.0, 
       "assists": 17.0, 
+      "offReb": 12.0, 
       "tpp": 29.0, 
       "defReb": 39.0, 
       "pFouls": 26.0, 
@@ -297,35 +330,43 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612741", 
+      "gameId": "0021800178", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": false, 
+      "startDateEastern": "20181110"
     }, 
     "stats": {
       "ftp": 66.7, 
       "blocks": 6.0, 
       "tpa": 21.0, 
-      "min": "240:00", 
+      "plusMinus": -1.0, 
       "totReb": 53.0, 
       "fgp": 42.9, 
-      "turnovers": 12.0, 
       "fta": 18.0, 
       "fgm": 39.0, 
       "tpm": 8.0, 
-      "plusMinus": -1.0, 
-      "offReb": 15.0, 
       "assists": 15.0, 
+      "offReb": 15.0, 
       "tpp": 38.1, 
       "defReb": 38.0, 
       "pFouls": 17.0, 
       "ftm": 12.0, 
       "fga": 91.0, 
       "steals": 5.0, 
-      "points": 98.0
+      "turnovers": 12.0
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612766", 
+      "gameId": "0021800199", 
+      "min": "240:00", 
+      "win": true, 
+      "homeTeam": true, 
+      "startDateEastern": "20181113"
     }, 
     "stats": {
       "ftp": 83.3, 
@@ -333,14 +374,12 @@
       "tpa": 24.0, 
       "plusMinus": 24.0, 
       "totReb": 60.0, 
-      "min": "240:00", 
       "fgp": 52.9, 
       "fga": 85.0, 
       "fta": 12.0, 
       "fgm": 45.0, 
-      "points": 113.0, 
-      "offReb": 14.0, 
       "assists": 23.0, 
+      "offReb": 14.0, 
       "tpp": 54.2, 
       "defReb": 46.0, 
       "pFouls": 20.0, 
@@ -351,23 +390,26 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612764", 
+      "gameId": "0021800203", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": false, 
+      "startDateEastern": "20181114"
     }, 
     "stats": {
       "ftp": 67.7, 
       "blocks": 6.0, 
       "tpa": 21.0, 
-      "min": "240:00", 
-      "totReb": 42.0, 
       "plusMinus": -24.0, 
+      "totReb": 42.0, 
       "fgp": 45.5, 
       "fta": 31.0, 
       "fgm": 35.0, 
       "tpm": 4.0, 
-      "points": 95.0, 
-      "offReb": 9.0, 
       "assists": 22.0, 
+      "offReb": 9.0, 
       "tpp": 19.0, 
       "defReb": 33.0, 
       "pFouls": 24.0, 
@@ -378,23 +420,26 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612765", 
+      "gameId": "0021800240", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": false, 
+      "startDateEastern": "20181119"
     }, 
     "stats": {
       "ftp": 70.6, 
       "blocks": 3.0, 
-      "points": 102.0, 
       "tpa": 21.0, 
-      "min": "240:00", 
+      "plusMinus": -11.0, 
       "totReb": 36.0, 
       "fgp": 44.3, 
       "fga": 79.0, 
       "fta": 34.0, 
       "fgm": 35.0, 
-      "plusMinus": -11.0, 
-      "offReb": 11.0, 
       "assists": 16.0, 
+      "offReb": 11.0, 
       "tpp": 38.1, 
       "defReb": 25.0, 
       "pFouls": 22.0, 
@@ -405,35 +450,43 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612747", 
+      "gameId": "0021800256", 
+      "min": "240:00", 
+      "win": false, 
+      "homeTeam": true, 
+      "startDateEastern": "20181121"
     }, 
     "stats": {
       "ftp": 93.3, 
       "blocks": 2.0, 
       "tpa": 34.0, 
-      "min": "240:00", 
+      "plusMinus": -4.0, 
       "totReb": 46.0, 
       "fgp": 38.2, 
-      "turnovers": 3.0, 
       "fta": 15.0, 
       "fgm": 39.0, 
       "tpm": 13.0, 
-      "plusMinus": -4.0, 
-      "offReb": 15.0, 
       "assists": 18.0, 
+      "offReb": 15.0, 
       "tpp": 38.2, 
       "defReb": 31.0, 
       "pFouls": 22.0, 
       "ftm": 14.0, 
       "fga": 102.0, 
       "steals": 3.0, 
-      "points": 105.0
+      "turnovers": 3.0
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": false
+    "basicGameData": {
+      "opTeamId": "1610612755", 
+      "gameId": "0021800270", 
+      "min": "240:00", 
+      "win": true, 
+      "homeTeam": false, 
+      "startDateEastern": "20181123"
     }, 
     "stats": {
       "ftp": 75.0, 
@@ -441,14 +494,12 @@
       "tpa": 22.0, 
       "plusMinus": 9.0, 
       "totReb": 42.0, 
-      "min": "240:00", 
       "fgp": 52.7, 
       "fga": 93.0, 
       "fta": 16.0, 
       "fgm": 49.0, 
-      "points": 121.0, 
-      "offReb": 14.0, 
       "assists": 16.0, 
+      "offReb": 14.0, 
       "tpp": 50.0, 
       "defReb": 28.0, 
       "pFouls": 25.0, 
@@ -459,8 +510,13 @@
     }
   }, 
   {
-    "basicInfo": {
-      "homeTeam": true
+    "basicGameData": {
+      "opTeamId": "1610612745", 
+      "gameId": "0021800279", 
+      "min": "240:00", 
+      "win": true, 
+      "homeTeam": true, 
+      "startDateEastern": "20181124"
     }, 
     "stats": {
       "ftp": 75.9, 
@@ -469,11 +525,9 @@
       "tpa": 22.0, 
       "plusMinus": 9.0, 
       "tpm": 7.0, 
-      "min": "240:00", 
       "fgp": 48.9, 
       "fta": 29.0, 
       "fgm": 44.0, 
-      "points": 117.0, 
       "offReb": 20.0, 
       "assists": 15.0, 
       "tpp": 31.8, 
