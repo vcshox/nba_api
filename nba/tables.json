@@ -5,5 +5,11 @@
 			"FGM", "FGA", "FG%", "3PM", "3PA", "3P%", "FTM", "FTA", "FT%",
 			"OREB", "DREB", "REB", "AST", "TOV", "STL", "BLK", "PF", "FP", "DD2", "TD3", "+/-"]
 		}
+	},
+	"team": {
+		"columns": ["isNBAFranchise", "isAllStar",
+		"city", "altCityName", "fullName", "tricode",
+		"teamId", "nickname", "urlName", "confName", "divName"]
 	}
+	
 }

@@ -1,0 +1,542 @@
+[
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "94.4", 
+      "blocks": "7", 
+      "points": "108", 
+      "tpa": "26", 
+      "min": "240:00", 
+      "totReb": "58", 
+      "fgp": "44.2", 
+      "fga": "95", 
+      "fta": "18", 
+      "fgm": "42", 
+      "plusMinus": "8", 
+      "offReb": "17", 
+      "assists": "28", 
+      "tpp": "26.9", 
+      "defReb": "41", 
+      "pFouls": "29", 
+      "ftm": "17", 
+      "tpm": "7", 
+      "steals": "7", 
+      "turnovers": "21"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "88.9", 
+      "blocks": "6", 
+      "tpa": "19", 
+      "min": "240:00", 
+      "totReb": "43", 
+      "fgp": "56.3", 
+      "turnovers": "16", 
+      "fta": "18", 
+      "fgm": "49", 
+      "tpm": "10", 
+      "plusMinus": "1", 
+      "offReb": "8", 
+      "assists": "27", 
+      "tpp": "52.6", 
+      "defReb": "35", 
+      "pFouls": "23", 
+      "ftm": "16", 
+      "fga": "87", 
+      "steals": "10", 
+      "points": "124"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "79.2", 
+      "blocks": "6", 
+      "tpa": "29", 
+      "plusMinus": "-2", 
+      "totReb": "40", 
+      "min": "240:00", 
+      "fgp": "45.6", 
+      "fga": "79", 
+      "fta": "24", 
+      "fgm": "36", 
+      "points": "98", 
+      "offReb": "6", 
+      "assists": "22", 
+      "tpp": "24.1", 
+      "defReb": "34", 
+      "pFouls": "29", 
+      "ftm": "19", 
+      "tpm": "7", 
+      "steals": "4", 
+      "turnovers": "18"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "73.1", 
+      "blocks": "4", 
+      "tpa": "37", 
+      "min": "240:00", 
+      "totReb": "40", 
+      "plusMinus": "20", 
+      "fgp": "51.1", 
+      "fta": "26", 
+      "fgm": "45", 
+      "tpm": "14", 
+      "points": "123", 
+      "offReb": "7", 
+      "assists": "35", 
+      "tpp": "37.8", 
+      "defReb": "33", 
+      "pFouls": "24", 
+      "ftm": "19", 
+      "fga": "88", 
+      "steals": "12", 
+      "turnovers": "14"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "92.0", 
+      "blocks": "5", 
+      "points": "144", 
+      "tpa": "33", 
+      "min": "240:00", 
+      "totReb": "48", 
+      "fgp": "57.6", 
+      "fga": "92", 
+      "fta": "25", 
+      "fgm": "53", 
+      "plusMinus": "22", 
+      "offReb": "10", 
+      "assists": "37", 
+      "tpp": "45.5", 
+      "defReb": "38", 
+      "pFouls": "22", 
+      "ftm": "23", 
+      "tpm": "15", 
+      "steals": "6", 
+      "turnovers": "15"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "83.3", 
+      "blocks": "6", 
+      "tpa": "33", 
+      "min": "240:00", 
+      "totReb": "39", 
+      "fgp": "58.6", 
+      "turnovers": "14", 
+      "fta": "12", 
+      "fgm": "51", 
+      "tpm": "16", 
+      "plusMinus": "28", 
+      "offReb": "6", 
+      "assists": "26", 
+      "tpp": "48.5", 
+      "defReb": "33", 
+      "pFouls": "16", 
+      "ftm": "10", 
+      "fga": "87", 
+      "steals": "10", 
+      "points": "128"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "87.5", 
+      "blocks": "7", 
+      "tpa": "33", 
+      "plusMinus": "6", 
+      "totReb": "47", 
+      "min": "240:00", 
+      "fgp": "49.4", 
+      "fga": "89", 
+      "fta": "24", 
+      "fgm": "44", 
+      "points": "120", 
+      "offReb": "12", 
+      "assists": "28", 
+      "tpp": "33.3", 
+      "defReb": "35", 
+      "pFouls": "16", 
+      "ftm": "21", 
+      "tpm": "11", 
+      "steals": "11", 
+      "turnovers": "12"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "73.1", 
+      "blocks": "7", 
+      "tpa": "45", 
+      "min": "240:00", 
+      "totReb": "49", 
+      "plusMinus": "25", 
+      "fgp": "55.2", 
+      "fta": "26", 
+      "fgm": "53", 
+      "tpm": "24", 
+      "points": "149", 
+      "offReb": "8", 
+      "assists": "34", 
+      "tpp": "53.3", 
+      "defReb": "41", 
+      "pFouls": "29", 
+      "ftm": "19", 
+      "fga": "96", 
+      "steals": "9", 
+      "turnovers": "7"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "70.0", 
+      "blocks": "4", 
+      "points": "131", 
+      "tpa": "32", 
+      "min": "240:00", 
+      "totReb": "46", 
+      "fgp": "52.8", 
+      "fga": "89", 
+      "fta": "30", 
+      "fgm": "47", 
+      "plusMinus": "10", 
+      "offReb": "12", 
+      "assists": "39", 
+      "tpp": "50.0", 
+      "defReb": "34", 
+      "pFouls": "24", 
+      "ftm": "21", 
+      "tpm": "16", 
+      "steals": "10", 
+      "turnovers": "17"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "77.3", 
+      "blocks": "9", 
+      "tpa": "34", 
+      "min": "240:00", 
+      "totReb": "61", 
+      "fgp": "48.9", 
+      "turnovers": "16", 
+      "fta": "22", 
+      "fgm": "43", 
+      "tpm": "13", 
+      "plusMinus": "17", 
+      "offReb": "12", 
+      "assists": "31", 
+      "tpp": "38.2", 
+      "defReb": "49", 
+      "pFouls": "16", 
+      "ftm": "17", 
+      "fga": "88", 
+      "steals": "3", 
+      "points": "116"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "95.7", 
+      "blocks": "4", 
+      "tpa": "24", 
+      "plusMinus": "16", 
+      "totReb": "46", 
+      "min": "240:00", 
+      "fgp": "50.6", 
+      "fga": "81", 
+      "fta": "23", 
+      "fgm": "41", 
+      "points": "117", 
+      "offReb": "8", 
+      "assists": "29", 
+      "tpp": "54.2", 
+      "defReb": "38", 
+      "pFouls": "25", 
+      "ftm": "22", 
+      "tpm": "13", 
+      "steals": "4", 
+      "turnovers": "13"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "77.3", 
+      "blocks": "6", 
+      "tpa": "28", 
+      "min": "240:00", 
+      "totReb": "38", 
+      "plusMinus": "-23", 
+      "fgp": "48.3", 
+      "fta": "22", 
+      "fgm": "42", 
+      "tpm": "10", 
+      "points": "111", 
+      "offReb": "8", 
+      "assists": "31", 
+      "tpp": "35.7", 
+      "defReb": "30", 
+      "pFouls": "22", 
+      "ftm": "17", 
+      "fga": "87", 
+      "steals": "5", 
+      "turnovers": "18"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "81.0", 
+      "blocks": "7", 
+      "points": "116", 
+      "tpa": "16", 
+      "min": "240:00", 
+      "totReb": "36", 
+      "fgp": "55.4", 
+      "fga": "83", 
+      "fta": "21", 
+      "fgm": "46", 
+      "plusMinus": "16", 
+      "offReb": "6", 
+      "assists": "27", 
+      "tpp": "43.8", 
+      "defReb": "30", 
+      "pFouls": "24", 
+      "ftm": "17", 
+      "tpm": "7", 
+      "steals": "9", 
+      "turnovers": "10"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "69.6", 
+      "blocks": "8", 
+      "tpa": "31", 
+      "min": "265:00", 
+      "totReb": "46", 
+      "fgp": "46.8", 
+      "turnovers": "17", 
+      "fta": "23", 
+      "fgm": "44", 
+      "tpm": "12", 
+      "plusMinus": "-5", 
+      "offReb": "11", 
+      "assists": "27", 
+      "tpp": "38.7", 
+      "defReb": "35", 
+      "pFouls": "25", 
+      "ftm": "16", 
+      "fga": "94", 
+      "steals": "7", 
+      "points": "116"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "95.2", 
+      "blocks": "6", 
+      "tpa": "27", 
+      "plusMinus": "7", 
+      "totReb": "48", 
+      "min": "240:00", 
+      "fgp": "42.9", 
+      "fga": "91", 
+      "fta": "21", 
+      "fgm": "39", 
+      "points": "110", 
+      "offReb": "13", 
+      "assists": "28", 
+      "tpp": "44.4", 
+      "defReb": "35", 
+      "pFouls": "20", 
+      "ftm": "20", 
+      "tpm": "12", 
+      "steals": "8", 
+      "turnovers": "13"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "81.8", 
+      "blocks": "5", 
+      "tpa": "18", 
+      "min": "240:00", 
+      "totReb": "44", 
+      "plusMinus": "-21", 
+      "fgp": "42.1", 
+      "fta": "22", 
+      "fgm": "32", 
+      "tpm": "4", 
+      "points": "86", 
+      "offReb": "12", 
+      "assists": "18", 
+      "tpp": "22.2", 
+      "defReb": "32", 
+      "pFouls": "24", 
+      "ftm": "18", 
+      "fga": "76", 
+      "steals": "2", 
+      "turnovers": "16"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "94.1", 
+      "blocks": "6", 
+      "points": "109", 
+      "tpa": "33", 
+      "min": "240:00", 
+      "totReb": "47", 
+      "fgp": "44.7", 
+      "fga": "94", 
+      "fta": "17", 
+      "fgm": "42", 
+      "plusMinus": "-3", 
+      "offReb": "12", 
+      "assists": "24", 
+      "tpp": "27.3", 
+      "defReb": "35", 
+      "pFouls": "27", 
+      "ftm": "16", 
+      "tpm": "9", 
+      "steals": "6", 
+      "turnovers": "12"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": false
+    }, 
+    "stats": {
+      "ftp": "81.0", 
+      "blocks": "4", 
+      "tpa": "26", 
+      "min": "240:00", 
+      "totReb": "46", 
+      "fgp": "40.7", 
+      "turnovers": "11", 
+      "fta": "21", 
+      "fgm": "35", 
+      "tpm": "5", 
+      "plusMinus": "-12", 
+      "offReb": "10", 
+      "assists": "20", 
+      "tpp": "19.2", 
+      "defReb": "36", 
+      "pFouls": "17", 
+      "ftm": "17", 
+      "fga": "86", 
+      "steals": "6", 
+      "points": "92"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "66.7", 
+      "blocks": "10", 
+      "tpa": "29", 
+      "plusMinus": "-28", 
+      "totReb": "42", 
+      "min": "240:00", 
+      "fgp": "43.4", 
+      "fga": "83", 
+      "fta": "24", 
+      "fgm": "36", 
+      "points": "95", 
+      "offReb": "7", 
+      "assists": "24", 
+      "tpp": "24.1", 
+      "defReb": "35", 
+      "pFouls": "18", 
+      "ftm": "16", 
+      "tpm": "7", 
+      "steals": "7", 
+      "turnovers": "17"
+    }
+  }, 
+  {
+    "basicInfo": {
+      "homeTeam": true
+    }, 
+    "stats": {
+      "ftp": "75.0", 
+      "totReb": "42", 
+      "blocks": "11", 
+      "tpa": "32", 
+      "plusMinus": "28", 
+      "tpm": "17", 
+      "min": "240:00", 
+      "fgp": "56.5", 
+      "fta": "16", 
+      "fgm": "48", 
+      "points": "125", 
+      "offReb": "6", 
+      "assists": "29", 
+      "tpp": "53.1", 
+      "defReb": "36", 
+      "pFouls": "22", 
+      "ftm": "12", 
+      "fga": "85", 
+      "steals": "11", 
+      "turnovers": "14"
+    }
+  }
+]
